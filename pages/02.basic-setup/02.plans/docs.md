@@ -5,7 +5,7 @@ taxonomy:
         - docs
 ---
 
-Plans are the central of the system. That's what you sell to your customers. You setup subscription plans, then customers browse your site, see these plans and subscribe to the plan he wants, process payment... to become an active subscriber in the system.
+Plans are the central of the system. That's what you sell to your customers. You setup subscription plans, then customers browse your site, see these plans and subscribe to the plan they want, process payment... to become active subscribers in the system.
 
 Base on the **price** of subscription plans, Membership Pro supports the following subscription plans type
 
@@ -16,10 +16,10 @@ Base on the **price** of subscription plans, Membership Pro supports the followi
 
 Base on the **subscription length**, we can devide subscription plans into the two types below:
 
-1. **Fixed subscription length** (for example **15 days**, **1 month**, **3 months**, **1 year**). For this type of subscription plans, when subscribers sign up, their subscription will be expired after the subscription length you defined for the plan.
-2. **Fixed Expiration Date**. For this type of subscription plans, when subscribers sign up, their subscriptions will be expired at a fixed date (for example 31 December 2016), not depend on the date they sign up. Of course the extension is smart enough so that if users sign up after that fixed date, their expiration date will be changed to next year. For example, if you set **Expiration Date** of the plan to **31 Decemmber 2015** and users sign up at **sometime in 2016**, their subscription will be expired on **31 December 2016**. So in this case, you won't have to change setting of the plan every year.
+1. **Fixed subscription length** (for example **15 days**, **1 month**, **3 months**, **1 year**). For this type of subscription plans, when subscribers sign up, their subscriptions will expire after the subscription length you defined for the plan.
+2. **Fixed Expiration Date**. For this type of subscription plans, when subscribers sign up, their subscriptions will expire on a fixed date (for example 31 December 2016). The expiration date does not depend on the sign up date.  What's more, the extension is smart enough so that if users sign up after that fixed date, their expiration date will be changed to next year. For example, if you set **Expiration Date** of the plan to **31 Decemmber 2015** and users sign up at **sometime in 2016**, their subscription will be expired on **31 December 2016**. That means you won't have to change setting of the plan every year.
 
-To access to categories management page, there are 3 different ways:
+You can access the categories management page 3 different ways:
 1. Access to **Components => Membership Pro => Subscription Plans**.
 2. Access to Membership Pro Dashboard, then click on Plans icon
 3. On any pages in Membership Pro, access to **Setup => Plans**
@@ -27,7 +27,7 @@ To access to categories management page, there are 3 different ways:
 ![Plans Management](plans.png)
 
 ## Add new subscription plan
-Press New button in the toolbar to create new subscription plan. A form will be displayed to allow you to enter information of the plan.
+Press New button in the toolbar to create new subscription plan. A form will be displayed to allow you to enter information for the plan.
 
 ### Basic Information
 
@@ -64,10 +64,10 @@ How long the subscription will be active if subscribers sign up for this plan. I
 <p>If you want all subscriptions of this plan to be expired on the same date (no matter when the subscribers sign up), you can choose that fixed expiration date into this field. For example, if you set this property to 31/12/2015:</p>
 <ul>
 <li>
-If users sign up before 31/12/2015, their subscription will be expired on <strong>31/12/2015</strong>
+If users sign up before 31/12/2015, their subscriptions will expire on <strong>31/12/2015</strong>
 </li>
 <li>
-If users sign up after 31/12/2015, for example on 06/05/2015, their subscription will be expired in <strong>31/12/2016</strong>
+If users sign up after 31/12/2015, for example on 06/05/2015, their subscription will expire on <strong>31/12/2016</strong>
 </li>
 </ul>
 </td>
